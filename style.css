@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  background-image: url("./images/bg-mobile.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #1d2c67;
+}
+
+main .data-type {
+  padding: 8% 30% 8% 10%;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  -ms-flex-preferred-size: 27%;
+      flex-basis: 27%;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .data-type .icons {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .data-type .icons div {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #0c122c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .storage {
+  color: #dddbff;
+  border-radius: 10px;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  position: relative;
+  padding: 5% 8% 8% 8%;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .storage p {
+  margin-bottom: 5%;
+}
+
+main .storage p .used-storage {
+  font-weight: 700;
+}
+
+main .storage .progress-bar {
+  height: 20px;
+  border-radius: 20px;
+  background-color: #0c122c;
+  margin-bottom: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .storage .progress-bar .progress {
+  margin-left: 1%;
+  border-radius: 20px;
+  height: 70%;
+  width: 80%;
+  background: -webkit-gradient(linear, left top, right top, from(#ffa399), to(#ff4d97));
+  background: linear-gradient(90deg, #ffa399, #ff4d97);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main .storage .progress-bar .progress .dot {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 1%;
+  display: block;
+  width: 5%;
+  height: 85%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+main .storage .free-storage {
+  position: absolute;
+  width: 60%;
+  height: 80px;
+  background-color: #fff;
+  bottom: -40px;
+  -webkit-transform: translateX(20%);
+          transform: translateX(20%);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  color: #848794;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+main .storage .free-storage .quantity {
+  color: #000;
+  font-weight: 700;
+  margin-right: 3%;
+  font-size: 40px;
+}
+
+main .storage .range-storage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .storage .range-storage p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.attribution {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
