@@ -129,3 +129,94 @@ main{
 .attribution{
     display: none;
 }
+
+
+@media screen and (min-width: 1440px){
+    body{
+        background-image: url('./images/bg-desktop.png');
+        background-color: hsl(229, 57%, 11%);
+        background-repeat: no-repeat;
+        background-position: 5% 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main{
+        flex-direction: row;
+        height: 30%;
+        background: none;
+        width: 70%;
+        section{
+            margin: 0;
+            
+        }
+        .data-type{
+            border-top-right-radius: 80px;
+            flex-basis: 32%;
+            height: 80%;
+            padding: 0;
+            justify-content: center;
+            .logo-container{
+                width: 60%;
+                padding: 10px 10px 20px 30px;
+            }
+            .icons{
+                padding-left: 30px;
+                width: 60%;
+                div{
+                    width: 40px;
+                    height: 40px;
+                    img{
+                        width: 20px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+        .storage{
+            margin-left: 5%;
+            flex-basis: 55%;
+            height: 25%;
+            align-self:center ;
+            text-align: left;
+            justify-content: center;
+            padding: 8% 5% 5% 3%;
+            p{
+                margin-bottom: 3.5%;
+                font-weight: 100;
+            }
+            .free-storage{
+                width: 30%;
+                height: 60px;
+                left:58%;
+                top: -30px;
+                font-size: 12px;
+                &::after{
+                    content:"";
+                    display: block;
+                    position: absolute;
+                    width: 0px;
+                    height: 0px;
+                    right: 0;
+                    top: 30px;
+                    border-style: solid;
+                    border-width: 25px 30px 20px 0;
+                    border-color: transparent #fff transparent transparent;
+                }
+            }
+
+            .progress-bar{
+                margin-bottom: 1.5%;
+                .progress{
+                    width: 70%;
+                    .dot{
+                        width: 3.5%;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
